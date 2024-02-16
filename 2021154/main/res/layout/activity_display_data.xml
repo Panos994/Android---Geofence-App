@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayDataActivity"
+    android:background="#808080">
+
+    <EditText
+        android:id="@+id/etDisplayTableName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Table Name"/>
+
+    <EditText
+        android:id="@+id/etDisplayRecordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Record ID"
+        android:layout_below="@+id/etDisplayTableName"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/etDisplayRecordId"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDisplayRecordId"
+        android:layout_marginTop="241dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/tvDisplayResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

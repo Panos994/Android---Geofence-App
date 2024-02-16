@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorStroke">#FF0000</color> <!-- Red for stroke color -->
+    <color name="colorFill">#40FF0000</color> <!-- 25% transparent red for fill color -->
+
+    <color name="colorRemovedStroke">#00FF00</color>
+    <color name="colorRemovedFill">#00FF00</color>
+</resources>
