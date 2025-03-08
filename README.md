@@ -22,7 +22,7 @@ A Geofence application built in Android using Java. The app integrates Google Ma
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/your-repo-url.git](https://github.com/Panos994/Android---Geofence-App.git
 
 
 
