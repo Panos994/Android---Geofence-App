@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDSN2UCRa-M5r2OTNzH6qa_h-2MfWCKinU" />
+            android:value="AIz..." />
         <receiver
             android:name=".GpsStatusReceiver"
             android:enabled="true"
